@@ -1,0 +1,53 @@
+main {
+    padding: 2rem;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control label {
+    display: block;
+}
+
+.form-control input,
+.form-control textarea {
+    padding: 0.5rem 0.75rem;
+    margin: 0.25rem 0;
+}
+
+.form-control p {
+    margin: 0.25rem 0 0;
+    color: red;
+}
+
+.button-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit-button {
+    border-color: black;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.feedback {
+    background-color: #eee;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.feedback p {
+    margin: 0;
+}
