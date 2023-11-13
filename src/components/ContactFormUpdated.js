@@ -39,10 +39,10 @@ function ContactForm() {
     }
 
     useEffect(() => {
-        if (feeback) {
-            setTimeout(() => setFeedback(""), 2000);
+        if (feeback && !isSuccessful) {
+            setTimeout(() => setFeedback(""), 3000);
         }
-    }, [feeback]);
+    }, [feeback, isSuccessful]);
 
     return (
         <section className="form-container">
